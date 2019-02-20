@@ -5,6 +5,10 @@
 using namespace std;
 
 
+void squre(int x)
+{
+	cout << x * x << endl;
+}
 
 int main()
 {
