@@ -7,8 +7,7 @@ using namespace std;
 
 void square(float x)
 {
-	// Documentation
-	cout << x * x << endl;
+	return x*x;
 }
 
 int main()
