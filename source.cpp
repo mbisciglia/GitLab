@@ -5,10 +5,9 @@
 using namespace std;
 
 
-void square(int x)
+int square(int x)
 {
-	// Documentation
-	cout << x * x << endl;
+	return x*x;
 }
 
 int main()
