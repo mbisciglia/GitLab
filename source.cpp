@@ -5,7 +5,7 @@
 using namespace std;
 
 
-void square(int x)
+void square(float x)
 {
 	// Documentation
 	cout << x * x << endl;
@@ -13,7 +13,7 @@ void square(int x)
 
 int main()
 {
-	square(17);
+	square(17.0);
 	// Disgusting
 	return 0;
 }
